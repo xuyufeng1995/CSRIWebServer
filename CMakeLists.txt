@@ -12,6 +12,6 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 add_subdirectory (src)
 
 add_executable(CSRIWebServer main.cpp)
-target_link_libraries(CSRIWebServer source)
+
 
 add_definitions(-O2 -pthread)
